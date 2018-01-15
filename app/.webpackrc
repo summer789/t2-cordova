@@ -1,0 +1,21 @@
+{
+  "entry": "src/index.js",
+  "outputPath": "../www/static",
+  "extraBabelPlugins": [
+    "transform-decorators-legacy"
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ]
+    }
+  },
+  "ignoreMomentLocale": true,
+  "html": {
+    "template": "./src/index.ejs"
+  },
+  "publicPath": "",
+  "disableDynamicImport": true,
+  "hash": false
+}
