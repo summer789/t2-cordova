@@ -1,12 +1,12 @@
 
-##项目采用框架
+## 项目采用框架
 
 - [dva](https://github.com/dvajs/dva)
 - [antd mobile](https://mobile.ant.design/index-cn)
 - [onsen ui](https://onsen.io/)
 - [cordova](http://cordova.axuer.com/)
 
-##安装Cordova iOS android 环境
+## 安装Cordova iOS android 环境
 
 `cordova platform add ios@4.5.4`
 
@@ -16,9 +16,9 @@
 
 `cordova prepare` 安装插件
 
-##启动App
+## 启动App
 
-###浏览器运行App
+### 浏览器运行App
 
 进入 app 目录
 
@@ -28,7 +28,7 @@
 
 运行app：`npm start`
 
-###虚拟机运行app
+### 虚拟机运行app
 
 进入项目根目录
 
@@ -40,14 +40,14 @@
 
 `cordova run ios --target="iPhone-5"`
 
-###真机运行（插件调用需真机环境下调试）
+### 真机运行（插件调用需真机环境下调试）
 
-####测试运行 ios
+#### 测试运行 ios
 - app 目录下 `npm run build`
 - 如果更改了代码,在命令行输入 `cordova prepare`
 - 使用 xcode 打开 platforms/ios/[name].xcodeproj, `command+R` 运行 app
 
-####测试运行 android
+#### 测试运行 android
 - app 目录下 `npm run build`
 - 如果更改了代码,在命令行输入 `cordova prepare`
 - `cordova run android`
