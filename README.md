@@ -54,5 +54,4 @@
 
 ## 发布打包 android
 - `cordova prepare`
-- 修改 config.xml README.md(lenglianzhushou_v) 文件版本号
 - `cordova build android --release`
