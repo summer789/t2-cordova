@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Router, Route, Switch } from 'dva/router';
-import { IntlProvider } from 'react-intl';
+import { IntlProvider } from 'react-intl'; //中英文切换
 import queryString from 'query-string';
 import IndexPage from './routes/IndexPage';
 import zhCN from './locale/zh_CN';
